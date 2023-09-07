@@ -20,4 +20,20 @@ def retrieve_sitemap(url):
 url = "https://dreamsfertilityclinic.com/page-sitemap.xml"
 xml = retrieve_sitemap(url)
     
-print(xml)    
+print(xml)  
+
+#Find out what type of sitemap - sitemapindex or urlset
+def retrieve_sitemap_type(xml):
+    sitemap_index = xml.find_all('sitemapindex')
+    sitemap_urlset = xml.find_all('urlset')
+    if sitemap_index:
+        return 'This sitemap is a sitemapindex'
+    elif sitemap_urlset:
+        return 'This sitemap is an urlset'
+    else:
+        return
+
+#Call out the function to find the type of sitemap
+type_of_sitemap = retrieve_sitemap_type(xml)
+print(type_of_sitemap)
+
