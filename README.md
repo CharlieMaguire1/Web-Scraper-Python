@@ -1,3 +1,14 @@
 # Web Scraper Project
 
-This project can be run on 
+The objective of this project is to parse XML sitemaps using Python.
+
+This code was written using Jupyter Notebook and saved as a .py file.
+I used the Anaconda Terminal to test the functionality and to change errors.
+
+You can use multiple terminals to run this code including, I used Windows Powershell seen below.
+
+![image](https://github.com/CharlieMaguire1/Data-Analysis-Portfolio/assets/144113514/dacc9c26-3598-4d41-b2be-9378c06e6bcd)
+
+
+
+
