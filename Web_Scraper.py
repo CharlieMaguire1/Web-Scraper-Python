@@ -17,7 +17,7 @@ def retrieve_sitemap(url):
       return xml
       
 # Finding sitemap at the root(sitemap.xml) or using robots.txt      
-url = "https://dreamsfertilityclinic.com/local-sitemap.xml"
+url = "https://dreamsfertilityclinic.com/page-sitemap.xml"
 xml = retrieve_sitemap(url)
     
 print(xml)    
