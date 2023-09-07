@@ -20,4 +20,4 @@ def retrieve_sitemap(url):
 url = "https://dreamsfertilityclinic.com/local-sitemap.xml"
 xml = retrieve_sitemap(url)
     
-xml    
+print(xml)    
